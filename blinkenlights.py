@@ -2,8 +2,8 @@ import kubernetes
 import os
 import time
 
-NAMESPACES = os.env['LIGHT_NAMESPACES'].split(',')
-NODE_NAME = os.env['LIGHT_NODE_NAME']
+NAMESPACES = os.environ['LIGHT_NAMESPACES'].split(',')
+NODE_NAME = os.environ['LIGHT_NODE_NAME']
 
 RED = '#ff0000'
 GREEN = '#00aa00'
