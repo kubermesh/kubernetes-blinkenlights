@@ -1,3 +1,3 @@
 FROM python:3-alpine
 
-CMD [ "python", "./blinkenlights,py" ]
+CMD [ "python", "./blinkenlights.py" ]
