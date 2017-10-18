@@ -11,3 +11,9 @@
 ## Hardware
 
 Uses the [blink(1)](https://blink1.thingm.com/) USB Light
+
+## What do the lights mean?
+
+- white flash: start of the sequence
+- green flash: a pod that's running
+- red flash: a pod that's not running
